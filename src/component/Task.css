@@ -1,0 +1,44 @@
+.taskWrapper {
+    position: relative;
+    border-bottom: 1px solid #efefef;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right:30px;
+}
+
+
+.removeToDo {
+    /* margin-left: 20px; */
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    padding: 5px;
+    color: rgba(241, 100, 100, 0.781);
+    border-color: rgba(241, 100, 100, 0.781);
+    background-color: transparent;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+
+.removeToDo {
+    opacity: 1;
+}
+.completeToDo {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    padding: 5px;
+    color: slategray;
+    border-color: slategray;
+    background-color: transparent;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
